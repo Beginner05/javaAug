@@ -22,15 +22,12 @@ public class Pattern12 {
 			for (int cst = 0; cst < nst; cst++) {
 				System.out.print("* ");
 				for (int csp = 0; csp < nsp2; csp++) {
-					if(csp==nsp2/2)
-					{
+					if (csp == nsp2 / 2 && cst != nst - 1) {
 						System.out.print("! ");
+					} else {
+						System.out.print("  ");
 					}
-					else {
-					System.out.print("  ");
 				}
-				}
-
 			}
 			System.out.println();
 			nsp1--;
